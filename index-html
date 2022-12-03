@@ -1,0 +1,25 @@
+// Define a variable to store the title of the website
+let websiteTitle = "Smokers' Helper";
+
+// Define a variable to store the main content of the website
+let websiteContent = "Welcome to Smokers' Helper, a website dedicated to helping smokers quit their habit and improve their health. We provide a range of resources, including tips, advice, and support, to help smokers on their journey to quit smoking. Whether you're just starting out or you've been trying to quit for a while, we're here to help you every step of the way. So why not start your journey today and join our community of ex-smokers!";
+
+// Define a function to create and display the website
+function createWebsite() {
+  // Create a new HTML element for the website title
+  let titleElement = document.createElement("h1");
+  // Set the text content of the title element to the website title
+  titleElement.textContent = websiteTitle;
+  // Append the title element to the website
+  document.body.appendChild(titleElement);
+
+  // Create a new HTML element for the website content
+  let contentElement = document.createElement("p");
+  // Set the text content of the content element to the website content
+  contentElement.textContent = websiteContent;
+  // Append the content element to the website
+  document.body.appendChild(contentElement);
+}
+
+// Call the createWebsite function to create and display the website
+createWebsite();
